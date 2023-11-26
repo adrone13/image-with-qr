@@ -1,0 +1,23 @@
+{
+  "name": "image-with-qr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc && node dist/main"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/command-line-args": "^5.2.3",
+    "@types/node": "^18.15.0",
+    "@types/qrcode": "^1.5.0",
+    "@types/sharp": "^0.31.0",
+    "command-line-args": "^5.2.1",
+    "qrcode": "^1.5.1",
+    "sharp": "^0.32.6",
+    "typescript": "^5.0.4"
+  }
+}
